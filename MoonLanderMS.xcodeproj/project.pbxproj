@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F313D49A2480C63900F0A86C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F313D4992480C63900F0A86C /* main.cpp */; };
+		F313D4A22480C65B00F0A86C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F313D4A12480C65B00F0A86C /* OpenGL.framework */; };
+		F313D4A42480C68C00F0A86C /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F313D4A32480C68C00F0A86C /* GLUT.framework */; };
+		F313D4B42480C72100F0A86C /* velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F313D4A52480C72000F0A86C /* velocity.cpp */; };
+		F313D4B62480C72100F0A86C /* uiInteract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F313D4AC2480C72000F0A86C /* uiInteract.cpp */; };
+		F313D4B72480C72100F0A86C /* uiDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F313D4AD2480C72000F0A86C /* uiDraw.cpp */; };
+		F313D4B82480C72100F0A86C /* driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F313D4B02480C72000F0A86C /* driver.cpp */; };
+		F313D4B92480C72100F0A86C /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F313D4B12480C72000F0A86C /* game.cpp */; };
+		F313D4BA2480C72100F0A86C /* ground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F313D4B22480C72100F0A86C /* ground.cpp */; };
+		F313D4BB2480C72100F0A86C /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F313D4B32480C72100F0A86C /* point.cpp */; };
+		F345A21F24855888009A134C /* lander.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F345A21E24855888009A134C /* lander.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +33,23 @@
 
 /* Begin PBXFileReference section */
 		F313D4962480C63900F0A86C /* MoonLanderMS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MoonLanderMS; sourceTree = BUILT_PRODUCTS_DIR; };
-		F313D4992480C63900F0A86C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F313D4A12480C65B00F0A86C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F313D4A32480C68C00F0A86C /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		F313D4A52480C72000F0A86C /* velocity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = velocity.cpp; sourceTree = "<group>"; };
+		F313D4A62480C72000F0A86C /* ground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ground.h; sourceTree = "<group>"; };
+		F313D4A72480C72000F0A86C /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		F313D4A82480C72000F0A86C /* uiInteract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiInteract.h; sourceTree = "<group>"; };
+		F313D4AB2480C72000F0A86C /* point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = point.h; sourceTree = "<group>"; };
+		F313D4AC2480C72000F0A86C /* uiInteract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiInteract.cpp; sourceTree = "<group>"; };
+		F313D4AD2480C72000F0A86C /* uiDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiDraw.cpp; sourceTree = "<group>"; };
+		F313D4AE2480C72000F0A86C /* uiDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiDraw.h; sourceTree = "<group>"; };
+		F313D4AF2480C72000F0A86C /* velocity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocity.h; sourceTree = "<group>"; };
+		F313D4B02480C72000F0A86C /* driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = driver.cpp; sourceTree = "<group>"; };
+		F313D4B12480C72000F0A86C /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		F313D4B22480C72100F0A86C /* ground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ground.cpp; sourceTree = "<group>"; };
+		F313D4B32480C72100F0A86C /* point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
+		F313D4BC2480C97700F0A86C /* lander.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lander.h; sourceTree = "<group>"; };
+		F345A21E24855888009A134C /* lander.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lander.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F313D4A42480C68C00F0A86C /* GLUT.framework in Frameworks */,
+				F313D4A22480C65B00F0A86C /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +70,7 @@
 			children = (
 				F313D4982480C63900F0A86C /* MoonLanderMS */,
 				F313D4972480C63900F0A86C /* Products */,
+				F313D4A02480C65B00F0A86C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +85,32 @@
 		F313D4982480C63900F0A86C /* MoonLanderMS */ = {
 			isa = PBXGroup;
 			children = (
-				F313D4992480C63900F0A86C /* main.cpp */,
+				F313D4B02480C72000F0A86C /* driver.cpp */,
+				F313D4B12480C72000F0A86C /* game.cpp */,
+				F313D4A72480C72000F0A86C /* game.h */,
+				F313D4B22480C72100F0A86C /* ground.cpp */,
+				F313D4A62480C72000F0A86C /* ground.h */,
+				F313D4B32480C72100F0A86C /* point.cpp */,
+				F313D4AB2480C72000F0A86C /* point.h */,
+				F313D4AD2480C72000F0A86C /* uiDraw.cpp */,
+				F313D4AE2480C72000F0A86C /* uiDraw.h */,
+				F313D4AC2480C72000F0A86C /* uiInteract.cpp */,
+				F313D4A82480C72000F0A86C /* uiInteract.h */,
+				F313D4A52480C72000F0A86C /* velocity.cpp */,
+				F313D4AF2480C72000F0A86C /* velocity.h */,
+				F313D4BC2480C97700F0A86C /* lander.h */,
+				F345A21E24855888009A134C /* lander.cpp */,
 			);
 			path = MoonLanderMS;
+			sourceTree = "<group>";
+		};
+		F313D4A02480C65B00F0A86C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F313D4A32480C68C00F0A86C /* GLUT.framework */,
+				F313D4A12480C65B00F0A86C /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F313D49A2480C63900F0A86C /* main.cpp in Sources */,
+				F313D4B72480C72100F0A86C /* uiDraw.cpp in Sources */,
+				F345A21F24855888009A134C /* lander.cpp in Sources */,
+				F313D4B42480C72100F0A86C /* velocity.cpp in Sources */,
+				F313D4BA2480C72100F0A86C /* ground.cpp in Sources */,
+				F313D4B92480C72100F0A86C /* game.cpp in Sources */,
+				F313D4BB2480C72100F0A86C /* point.cpp in Sources */,
+				F313D4B62480C72100F0A86C /* uiInteract.cpp in Sources */,
+				F313D4B82480C72100F0A86C /* driver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
